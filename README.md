@@ -73,7 +73,10 @@ pip3 install -r requirements.txt
 ```
 Pronto! Você está apto para rodar o projeto.
 
-Possíveis problemas:
+***
+## Possíveis problemas:
+
+
 Primeiramente, entenda que a biblioteca **PyAutoGUI** foi criada para automatizações que dependem do tamanho da sua tela. Em outras palavras, se você utilizar uma tela de tamanho diferente do computador em que a aplicação foi testada, é muito provável que a aplicação quebre. No meu caso, eu dividi a tela no meio, com o editor de texto à esquerda e o navegador, à direita, então, você deve fazer o mesmo no seu computador para que a automação funcione.
 
 Caso você tenha este tipo de problema, olhe código do fonte do programa - app.py. Os comandos que dependem do tamanho da sua tela recebem um comentário na sua linha de cima escrito: Depende do tamanho da sua tela.
