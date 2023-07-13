@@ -4,6 +4,10 @@ Neste projeto, nós vamos automatizar a jogabilidade do Magic Piano. Este site d
 
 ***
 
+## Vídeo de apresentação do projeto e primeiros passos:
+
+Assista ao vídeo de funcionamento do projeto [clicando aqui!](https://www.linkedin.com/feed/update/urn:li:activity:7085377563530862592/).
+***
 ## Descrição das instruções:
 
 1. Obter as coordenadas da tela onde vamos clicar.
