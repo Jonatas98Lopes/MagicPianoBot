@@ -2,6 +2,7 @@
 
 Neste projeto, nós vamos automatizar a jogabilidade do Magic Piano. Este site disponibiliza um jogo onde ouve uma música e clica nas teclas de teclado na tela.
 
+#### OBSERVAÇÃO: ESTE PROJETO SÓ FUNCIONA EM SISTEMAS WINDOWS. 
 ***
 
 ## Vídeo de apresentação do projeto e primeiros passos:
@@ -43,22 +44,10 @@ python -m venv nome_do_ambiente_virtual
 ```
 **nome_do_ambiente_virtual**: Defina o nome do seu ambiente virtual.
 
-4. Caso esteja no Linux ou Mac, rode o comando abaixo e aguarde a criação:
-```
-python3 -m venv nome_do_ambiente_virtual
-```
-**nome_do_ambiente_virtual**: Defina o nome do seu ambiente virtual.
-
-5. Ative o ambiente virtual através do seu terminal:
+4. Ative o ambiente virtual através do seu terminal:
 No caso do Windows, rode:
 ```
 nome_do_ambiente_virtual\Scripts\activate
-```
-**nome_do_ambiente_virtual**: Coloque o nome que definiu na criação do ambiente virtual.
-
-No caso do Linux ou Mac, rode:
-```
-source nome_do_ambiente_virtual\bin\activate
 ```
 **nome_do_ambiente_virtual**: Coloque o nome que definiu na criação do ambiente virtual.
 
@@ -66,10 +55,6 @@ Feito isso, vamos instalar as bibliotecas necessárias através do arquivo **req
 No Windows, estando dentro da pasta do projeto e com o ambiente virtual ativado, rode:
 ```
 pip install -r requirements.txt
-```
-No Linux ou MAC, estando dentro da pasta do projeto e com o ambiente virtual ativado, rode:
-```
-pip3 install -r requirements.txt
 ```
 Pronto! Você está apto para rodar o projeto.
 
