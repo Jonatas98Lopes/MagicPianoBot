@@ -31,28 +31,19 @@ REPETIR O PROCESSO ATÉ QUE O USUÁRIO A BARRA DE ESPAÇO NO TECLADO.
 
 ## Como rodar o código? 
 
-Assim que clonar este código, sugiro que você crie um ambiente virtual isolando os arquivos que estão no seu computador do diretório do projeto.
+Muito importante! **NÃO** CRIE AMBIENTE VIRTUAIS PARA RODAR ESTE PROJETO! 
 
-### Criando ambiente virtual com Python:
-1. Certifique-se que você selecionou a opção Add to path quando instalou o Python 3.
+Para este projeto, vamos utilizar a biblioteca **pywin32** que contém um api para interação com sistema Windows. Por isso, se você criar um ambiente virtual e baixar as bibliotecas ali, a biblioteca  **pywin32** não vai conseguir acessar os recursos do Windows.
 
-2. Estando dentro da pasta do projeto, abra o seu terminal:
+### Siga os seguintes passos:
 
-3. Caso esteja no Windows, rode o comando abaixo e aguarde a criação:
-```
-python -m venv nome_do_ambiente_virtual
-```
-**nome_do_ambiente_virtual**: Defina o nome do seu ambiente virtual.
+1. Certifique-se que você selecionou a opção **Add to path** quando instalou o Python 3.
 
-4. Ative o ambiente virtual através do seu terminal:
-No caso do Windows, rode:
-```
-nome_do_ambiente_virtual\Scripts\activate
-```
-**nome_do_ambiente_virtual**: Coloque o nome que definiu na criação do ambiente virtual.
+2. Estando dentro da pasta do projeto, abra o seu terminal.
 
-Feito isso, vamos instalar as bibliotecas necessárias através do arquivo **requirements.txt**:
-No Windows, estando dentro da pasta do projeto e com o ambiente virtual ativado, rode:
+Feito isso, vamos instalar as bibliotecas necessárias através do arquivo **requirements.txt**.
+
+3. Estando dentro da pasta do projeto, rode:
 ```
 pip install -r requirements.txt
 ```
